@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Bad";
+    src: url(font/Breaking\ Bad.ttf);
+    font-size: 35px;
+    color: white;
+}
+/*El font-face lo iba a borrar porque al final no lo utilice porque me quedaba feo en las páginas. Lo
+dejo ya que es un requerimiento del ejercicio y asi ves que tengo conocimiento de saber hacerlo, solo tendria que añadir 
+el font-family : "Bad" donde quisiera colocar*/
+#body1{
+    background-image: url('img/breaking\ bad/fondo.jpg');
+    background-size: cover;
+    text-align: center;   
+}
+h3{
+   color: white;
+   font-family: Helvetica, sans-serif;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+}
+#poster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+#body2{
+    background-image: url('img/breaking\ bad/fondo.jpg');
+    background-size: cover;
+    text-align: center;
+    font-family: "Bad";   
+}
+h1{
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+fieldset{
+    border: 5px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
+#margen{
+    margin: auto;
+    width: 900px;
+    height: 850px;
+}
+legend{
+    color: white;
+    font-family: Helvetica, sans-serif;   
+}
+#forma2{   
+    text-align: center;
+    background-color: #0c3e11;
+}
+#tabla1{
+    margin: auto;
+    border: 6px solid  #1E211B;
+    background-color: #1E211B;
+    width: 1400px;   
+}
+#tabla2{
+    margin: auto;
+    border: 6px solid  #1E211B;
+    background-color: #1E211B;
+    width: 1100px;
+}
+td{
+   width: 60px;
+   height: 20px;
+}
+tr{
+   
+   width: 60px;
+   height: 20px;
+}
+.letter{
+   font-size: 4em; 
+   font-weight: 700;
+   font-family: Helvetica, sans-serif;
+   color: #1E211B;
+}
+img{
+    width: 100px;
+    height: 80px;
+}
+.word{
+    display: block; 
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+ }
+ #cabecera{
+    width: 950px;
+    height: 300px;
+ }
+ #Ha{
+    background-image: url(img/Tabla\ Periódica/hankschrader.png);
+    border: 6px solid #1E211B;
+    background-size: cover;
+ }
+.null{
+    background-color: #1E211B;
+}
+.verde_apagado{
+    background-color:#727E45;
+    border: 6px solid  #1E211B;
+}
+.verde_fox{
+    background-color: #ADD321;
+    border: 6px solid  #1E211B;
+}
+.beige{
+    background-color: beige;
+    border: 6px solid  #1E211B;
+}
+.verde_aceituna{
+    background-color: #76941D;
+    border: 6px solid  #1E211B;
+}
+.verde_oscuro{
+    background-color: #45531E;
+    border: 6px solid  #1E211B;
+}
+.verde_amarillo{
+    background-color: #D6F130;
+    border: 6px solid  #1E211B;
+}
+.gris{
+    background-color: #B4BCA2;
+    border: 6px solid  #1E211B;
+}
+.morado{
+    background-color: #BAA2BC;
+    border: 6px solid  #1E211B;
+}
+.amarillo_apagado{
+    background-color: #E1EE84;
+    border: 6px solid  #1E211B;
+}
+.verde_abajo{
+    background-color: #ACAB18;
+    border: 6px solid  #1E211B;
+}
+
+
+

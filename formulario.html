@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id="body2">
+
+    <h1>Breaking Bad - Que comience el juego!</h1>
+
+    <form action="malito:verdugo_pablo@hotmail.com" method="post" enctype="text/plain">
+        <fieldset id="margen">
+            <fieldset>
+                <legend><h4>Datos personales</h4></legend>
+                <label for="nombre"><b>Nombre:</b></label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <br>
+                <label for="apellidos"><b>Apellidos:</b></label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                <br>
+                <br>
+                <input type="radio" id="hombre" name="sexo" value="Hombre">
+                <label for="hombre"><b>Hombre</b></label>
+                <br>
+                <input type="radio" id="mujer" name="sexo" value="Mujer">
+                <label for="mujer"><b>Mujer</b></label>
+                <br>
+                <br>
+                <label for="fecha_nacimiento"><b>Fecha de Nacimiento:</b></label>
+                <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+                <br>
+                <br>
+                <label for="direccion"><b>Dirección Postal:</b></label>
+                <br>
+                <input type="text" id="calle" name="calle" placeholder="Calle">
+                <br>
+                <input type="text" id="numero" name="numero" placeholder="Número">
+                <br>
+                <input type="text" id="piso" name="piso" placeholder="Piso">
+                <br>
+                <input type="text" id="codigo_postal" name="codigo_postal" placeholder="Código Postal">
+                <br>
+                <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
+                <br>
+                <input type="text" id="dni" name="dni" placeholder="DNI">
+                <br>
+                <input type="email" id="" name="correo" placeholder="Correo electrónico" required>
+                <br>
+                <br>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend><h4>Personaje favorito</h4></legend>
+                <label for="personaje"><b>Selecciona tu personaje favorito:</b></label>
+                <br>
+                <input list="materia">
+                <datalist id="materia">
+                    <option value="Jessie Pinkman"></option>
+                    <option value="Walter White"></option>
+                    <option value="Saul Goodman"></option>
+                    <option value="Gustavo Fring"></option>
+                    <option value="Pollos Hermanos"></option>
+                    <option value="Otros personajes"></option>
+                </datalist>
+                <br>
+                <br>
+                <label for="Comentarios"><b>Comentarios:</b></label>
+                <br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Dejanos tu comentario de porque es tu personaje favorito..."></textarea>
+                <br>
+                <input type="file" name="adjuntar_archivos" id="">
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+           
+        </fieldset> 
+              
+    </form>
+</body>
+</html>
